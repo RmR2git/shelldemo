@@ -5,14 +5,13 @@ pipeline {
         stage('Shell Demo') {
             steps {
                sh '''
-                # This is shell script testing
-
-                echo "what is your name?"
-                read name
-                echo "How do you do,$name?"
-                read remark
-                echo "I am $remark too!"
-                ''' 
+                    # This is shell script testing
+                    echo "Welcome all"
+                    echo "Shell Demo"
+                    mkdir ramu
+                    cd ramu
+                    touch ramfile
+                    '''
             }
         }
     }
