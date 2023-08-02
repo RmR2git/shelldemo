@@ -8,9 +8,9 @@ pipeline {
                     # This is shell script testing
                     echo "Welcome all"
                     echo "Shell Demo"
-                    mkdir remo
-                    cd remo
-                    touch remofile
+                    mkdir repo
+                    cd repo
+                    touch repofile
                     '''
             }
         }
